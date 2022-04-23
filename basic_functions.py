@@ -25,3 +25,7 @@ def stratified_split_dataset(
 
     return strat_train_set, train_labels, strat_test_set, test_labels
 
+def display_scores(scores):
+    print("Scores:", scores)
+    print("Mean:", scores.mean())
+    print("Standard deviation:", scores.std())
